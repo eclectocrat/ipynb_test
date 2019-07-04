@@ -17,18 +17,20 @@ jupyter:
 # Here is a function
 def some_stuff():
     print("changed lots of stuff stuff!")
+# Hi!
 some_stuff()
 ```
 
 ```{python}
 # Added too!
 num = 3
+another = "str"
 for _ in range(num):
     some_stuff()
 ```
 
 ```{python}
-print("Hello, what is going on?")
+print("Hello, what _is_ going on?")
 ```
 
 ```{python}
