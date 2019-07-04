@@ -18,7 +18,8 @@
 # -
 
 def fun():
-    print("fun()")
+    print("a super fun()")
+    # a comment here
 fun()
 
 var = 7
