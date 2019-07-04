@@ -21,4 +21,4 @@ def fun():
     print("fun()")
 fun()
 
-
+var = 7
