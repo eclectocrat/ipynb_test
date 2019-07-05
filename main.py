@@ -18,8 +18,13 @@
 # -
 
 def fun():
-    print("a super fun()")
-    # a comment here
+    print("fun()")
 fun()
 
 var = 7
+
+# +
+# How to kill an errant notebook server:
+# first, run `jupyter notebook list` to get jupyter used port-number.
+# then, run `lsof -n -i4TCP:[port-number]` to get PID (second field in the output).
+# finally, run kill -9 [PID] to kill this process.
